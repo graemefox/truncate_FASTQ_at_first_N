@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import gzip
 import argparse
-import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--input", help="The gzip-ed FASTQ file you want to truncate at first instance of an N.")
