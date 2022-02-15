@@ -6,3 +6,7 @@ The script has two required parameters: -i and -o.
 -i is the input FASTQ format file that you want to truncate.
 
 -o is the output directory where you would like the truncated FASTQ file to be written.
+
+Example:
+
+./truncate_at_first_N.py -i input_file.fastq -o output_dir/
